@@ -14,6 +14,22 @@ Node* LinkedList::GetHead()
 	return m_head;
 }
 
+std::string LinkedList::GetValueAt(int index)
+{
+	int count = 0;
+	Node* selectedNode = GetHead();
+
+	while (count != index)
+	{
+		selectedNode = selectedNode->GetNext();
+		count++;
+	}
+
+	std::string value = selectedNode->GetData();
+
+	return value;
+}
+
 void LinkedList::PushBack(Node* data)
 {
 	Node* newNode(new Node(*data));
@@ -69,17 +85,29 @@ void LinkedList::RemoveNode(Node* node)
 	{
 		if (node->GetData() == delNode->GetData())
 		{
-			Node* nextNode = delNode->GetNext();
-			preNodeLoc->SetNext(nextNode);
+			if (delNode == GetHead())
+			{
+				Node* nextNode = delNode->GetNext();
+				m_head = nextNode;
+				
+			}
+			else
+			{
+				Node* nextNode = delNode->GetNext();
+				preNodeLoc->SetNext(nextNode);
+			}
 			delete delNode;
 
 			loop = false;
 		}
 		else
 		{
-			if ((delNode->GetNext())->GetData() == node->GetData())
+			if (delNode != GetHead())
 			{
-				preNodeLoc = delNode;
+				if ((delNode->GetNext())->GetData() == node->GetData())
+				{
+					preNodeLoc = delNode;
+				}
 			}
 			delNode = delNode->GetNext();
 		}

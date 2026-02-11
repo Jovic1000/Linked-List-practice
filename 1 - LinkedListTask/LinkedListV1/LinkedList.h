@@ -7,7 +7,7 @@ public:
 	LinkedList();
 	~LinkedList();
 	Node* GetHead();
-	int GetNodes();
+	std::string GetValueAt(int index);
 	void PushBack(Node* data);
 	void Insert(Node* previousNode, Node* data);
 	void RemoveNode(Node* node);
@@ -16,6 +16,7 @@ public:
 
 private: 
 	Node* m_head;
+	
 	
 };
 

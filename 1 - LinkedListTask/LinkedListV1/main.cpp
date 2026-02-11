@@ -1,4 +1,4 @@
-
+#include <iostream>
 #include "LinkedList.h"
 
 int main() {
@@ -20,8 +20,6 @@ int main() {
 	system("pause");
 	
 
-
-
 	Node* testInsertNode = new Node("insert");
 	list->Insert(testNode, testInsertNode);
 
@@ -31,6 +29,10 @@ int main() {
 
 	list->RemoveNode(testNode);
 	list->OutputList();
+
+	system("pause");
+
+	std::cout << list->GetValueAt(2) << std::endl;
 
 
  	system("pause");
