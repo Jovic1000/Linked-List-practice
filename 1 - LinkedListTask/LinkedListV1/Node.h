@@ -1,19 +1,20 @@
 #pragma once
-#include <string>
+
+template<typename T>
 class Node
 {
 public:
-	Node::Node(std::string data);
+	Node::Node(T data);
 	~Node();
 
 	Node* GetNext();
 	void SetNext(Node* next);
-	std::string GetData();
+	T GetData();
 
 	void Execute();
 
 private: 
-	std::string m_data;
+	T m_data;
 	Node *m_next;
 };
 

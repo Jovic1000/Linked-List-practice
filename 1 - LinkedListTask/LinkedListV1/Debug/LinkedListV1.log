@@ -1,2 +1,106 @@
 ﻿  LinkedList.cpp
-  LinkedListV1.vcxproj -> E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\Debug\LinkedListV1.exe
+E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.h(11,14): error C3646: 'GetValueAt': unknown override specifier
+  (compiling source file 'LinkedList.cpp')
+      E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.h(11,14):
+      the template instantiation context (the oldest one first) is
+          E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.h(5,7):
+          while compiling class template 'LinkedList'
+  
+E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.h(11,24): error C2059: syntax error: '('
+  (compiling source file 'LinkedList.cpp')
+  
+E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.h(11,35): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'LinkedList.cpp')
+  
+E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.cpp(4,13): error C2955: 'LinkedList': use of class template requires template argument list
+      E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.h(5,7):
+      see declaration of 'LinkedList'
+  
+E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.cpp(4,13): error C2509: '{ctor}': member function not declared in 'LinkedList'
+      E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.h(5,7):
+      see declaration of 'LinkedList'
+  
+E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.cpp(8,14): error C2955: 'LinkedList': use of class template requires template argument list
+      E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.h(5,7):
+      see declaration of 'LinkedList'
+  
+E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.cpp(8,14): error C2509: '{dtor}': member function not declared in 'LinkedList'
+      E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.h(5,7):
+      see declaration of 'LinkedList'
+  
+E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.cpp(12,19): error C2955: 'LinkedList': use of class template requires template argument list
+      E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.h(5,7):
+      see declaration of 'LinkedList'
+  
+E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.cpp(12,19): error C2509: 'GetHead': member function not declared in 'LinkedList'
+      E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.h(5,7):
+      see declaration of 'LinkedList'
+  
+E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.cpp(17,25): error C2955: 'LinkedList': use of class template requires template argument list
+      E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.h(5,7):
+      see declaration of 'LinkedList'
+  
+E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.cpp(17,25): error C2039: 'GetValueAt': is not a member of 'LinkedList<T>'
+      E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.h(5,7):
+      see declaration of 'LinkedList<T>'
+  
+E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.cpp(20,23): error C3861: 'GetHead': identifier not found
+E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.cpp(24,32): error C2662: 'Node<T> *Node<T>::GetNext(void)': cannot convert 'this' pointer from 'Node' to 'Node<T> &'
+      E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.cpp(24,18):
+      Reason: cannot convert from 'Node' to 'Node<T>'
+      E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.cpp(24,18):
+      Conversion requires a second user-defined-conversion operator or constructor
+      E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\Node.h(10,8):
+      see declaration of 'Node<T>::GetNext'
+      E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.cpp(24,32):
+      while trying to match the argument list '()'
+  
+E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.cpp(24,39): error C2440: '=': cannot convert from 'Node<T> *' to 'Node *'
+      E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.cpp(24,39):
+      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  
+E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.cpp(28,36): error C2662: 'T Node<T>::GetData(void)': cannot convert 'this' pointer from 'Node' to 'Node<T> &'
+      E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.cpp(28,22):
+      Reason: cannot convert from 'Node' to 'Node<T>'
+      E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.cpp(28,22):
+      Conversion requires a second user-defined-conversion operator or constructor
+      E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\Node.h(12,4):
+      see declaration of 'Node<T>::GetData'
+      E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.cpp(28,36):
+      while trying to match the argument list '()'
+  
+E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.cpp(33,18): error C2955: 'LinkedList': use of class template requires template argument list
+      E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.h(5,7):
+      see declaration of 'LinkedList'
+  
+E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.cpp(33,18): error C2509: 'PushBack': member function not declared in 'LinkedList'
+      E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.h(5,7):
+      see declaration of 'LinkedList'
+  
+E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.cpp(54,18): error C2955: 'LinkedList': use of class template requires template argument list
+      E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.h(5,7):
+      see declaration of 'LinkedList'
+  
+E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.cpp(54,18): error C2509: 'Insert': member function not declared in 'LinkedList'
+      E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.h(5,7):
+      see declaration of 'LinkedList'
+  
+E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.cpp(78,18): error C2955: 'LinkedList': use of class template requires template argument list
+      E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.h(5,7):
+      see declaration of 'LinkedList'
+  
+E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.cpp(78,18): error C2509: 'RemoveNode': member function not declared in 'LinkedList'
+      E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.h(5,7):
+      see declaration of 'LinkedList'
+  
+E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.cpp(117,18): error C2955: 'LinkedList': use of class template requires template argument list
+      E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.h(5,7):
+      see declaration of 'LinkedList'
+  
+E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.cpp(117,18): error C2509: 'OutputList': member function not declared in 'LinkedList'
+      E:\GitHub Clone Repository\Linked-List-practice\1 - LinkedListTask\LinkedListV1\LinkedList.h(5,7):
+      see declaration of 'LinkedList'
+  
+  Node.cpp
+  main.cpp
+  Generating Code...

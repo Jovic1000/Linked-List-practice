@@ -1,30 +1,38 @@
 #include "Node.h"
 #include <iostream>
 
-Node::Node(std::string data) : m_data(data), m_next(nullptr)
+template<typename T>
+Node<T>::Node(T data) : m_data(data), m_next(nullptr)
 {
 }
 
-Node::~Node()
+template<typename T>
+Node<T>::~Node()
 {
 }
 
-Node* Node::GetNext()
+
+
+template<typename T>
+Node<T>* Node<T>::GetNext()
 {
 	return m_next;
 }
 
-void Node::SetNext(Node* next)
+template<typename T>
+void Node<T>::SetNext(Node* next)
 {
 	m_next = next;
 }
 
-std::string Node::GetData()
+template<typename T>
+T Node<T>::GetData()
 {
 	return m_data;
 }
 
-void Node::Execute()
+template<typename T>
+void Node<T>::Execute()
 {
 	std::cout << GetData() << std::endl;
 }
